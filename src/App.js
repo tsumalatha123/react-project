@@ -1,24 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import Overview from './overview';
+import PropClassFunDemo from './ClassfunCompodemo';
+import PropsFuncDemo from './FunctCompoDemo';
+import ProductDetails from './ProductPage';
+import Product from './ProductDetails';
+import ProductPage from './ProductPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="app">
+      {/* <Overview></Overview> */}
+      {/* <PropClassFunDemo number="098790098"></PropClassFunDemo> */}
+      {/* <PropsFuncDemo name="Suma"></PropsFuncDemo> */}
+      <ProductPage></ProductPage>
     </div>
+   
   );
 }
 
